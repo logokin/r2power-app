@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+  
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    border: 2px gray solid;
+    min-height: 50vh;
+    margin: auto;
+    background:white;
+}
+
+.modal{
+    position: absolute;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+     min-height: 30vh;
+     background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: -100;
+    transition: all 2s ease;
+}
+
+.modal-show{
+    z-index: 100;
+}
+input{
+    width: 30%;
+    max-width: 200px;
+    margin-right: 10px;
+    outline: none;
+}
+span #number{
+    padding:0.8rem 1rem ;
+
+}
+sup input{
+ border: none;
+ max-width: 200px;
+
+ width: 10%;
+ outline: none;
+ border-bottom: 2px solid gray;
+ position: relative;
+ top: -10px;
+ left: 0;
+}
